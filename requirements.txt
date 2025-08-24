@@ -1,0 +1,41 @@
+# 잡코리아 LLM Engineer AI Challenge - 의존성 패키지
+
+# 핵심 AI/ML 라이브러리
+openai>=1.0.0
+anthropic>=0.18.0
+sentence-transformers>=2.2.0
+numpy>=1.24.0
+torch>=2.0.0
+transformers>=4.30.0
+
+# 캐싱 및 데이터베이스
+redis>=4.5.0
+pymongo>=4.3.0
+
+# 웹 프레임워크 및 API
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+
+# 비동기 처리
+asyncio-mqtt>=0.11.0
+aiohttp>=3.8.0
+
+# 모니터링 및 로깅
+prometheus-client>=0.17.0
+structlog>=23.1.0
+
+# 테스트
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.0
+
+# 개발 도구
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# 유틸리티
+python-dotenv>=1.0.0
+click>=8.1.0
+rich>=13.4.0
